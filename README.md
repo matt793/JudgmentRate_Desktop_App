@@ -307,6 +307,8 @@ graph TB
   - **Variable**: Federal rate + additional percentage
 - **Management**: Full CRUD operations via Database Manager
 
+> **⚠️ Important Note**: State interest rates are subject to change and may be updated by state legislatures. While this application comes pre-populated with current rates, **you should verify and manually update state rates periodically** through the Database Manager tab to ensure accuracy. Always consult official state sources or legal counsel for the most current rates.
+
 ### Interest Calculation
 
 ```
@@ -418,13 +420,19 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 Special thanks to:
 
-🏦 **[Federal Reserve Economic Data (FRED)](https://fred.stlouisfed.org/)** for providing reliable interest rate data
+🏦 **[Federal Reserve Economic Data (FRED)](https://fed.stlouisfed.org/)** for providing reliable interest rate data
 
 🚀 **[Tauri](https://tauri.app/)** for the amazing desktop framework
 
 ⚛️ **[React](https://react.dev/)** and 🦀 **[Rust](https://www.rust-lang.org/)** communities
 
 📚 All contributors and users of this application
+
+---
+
+### 🎵 Built with Vibes
+
+This entire application was **"Vibe Coded"** - built through an interactive, conversational coding session where we explored ideas, iterated on solutions, and created something awesome together. Sometimes the best code comes from good vibes and collaborative energy! ✨
 
 </div>
 
