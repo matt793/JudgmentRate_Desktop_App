@@ -41,13 +41,38 @@ The application features three main tabs:
 
 ## Installation
 
-### Prerequisites
+### Option 1: Install from Pre-built MSI (Recommended for Windows Users)
+
+The easiest way to install the Post-Judgment Interest Calculator is using the pre-built MSI installer:
+
+1. **Download the installer** from the [Releases page](https://github.com/matt793/JudgmentRateDesktop/releases)
+   - Choose **x64** for most Windows PCs (Intel/AMD processors)
+   - Choose **ARM64** for ARM-based Windows devices (Surface Pro X, etc.)
+
+2. **Run the MSI installer** by double-clicking the downloaded file
+
+3. **Get a FRED API key** (required for federal rate calculations):
+   - Visit [FRED API Key Registration](https://fred.stlouisfed.org/docs/api/api_key.html)
+   - Create a free account or sign in
+   - Request an API key (instant approval)
+
+4. **Configure the application**:
+   - Launch the Post-Judgment Interest Calculator from your Start Menu
+   - Go to the Settings tab
+   - Paste your FRED API key and click "Save API Key"
+   - You're ready to calculate interest!
+
+### Option 2: Build from Source
+
+For developers or users on macOS/Linux who want to build from source:
+
+#### Prerequisites
 
 - [Rust](https://www.rust-lang.org/tools/install) (latest stable)
 - [Node.js](https://nodejs.org/) (v18 or higher)
 - [Tauri CLI](https://tauri.app/v1/guides/getting-started/prerequisites)
 
-### Setup
+#### Setup
 
 1. Clone the repository:
 ```bash
@@ -60,21 +85,12 @@ cd JudgmentRateDesktop
 npm install
 ```
 
-3. Get a FRED API key:
-   - Visit [FRED API Key Registration](https://fred.stlouisfed.org/docs/api/api_key.html)
-   - Create a free account or sign in
-   - Request an API key (instant approval)
-   - Save the key - you'll add it through the app's Settings tab
-
-4. Run the development server:
+3. Run the development server:
 ```bash
 npm run tauri dev
 ```
 
-5. Configure your API key:
-   - Launch the application
-   - Go to the Settings tab
-   - Paste your FRED API key and click "Save API Key"
+4. Configure your FRED API key through the Settings tab as described above
 
 ## Building
 
