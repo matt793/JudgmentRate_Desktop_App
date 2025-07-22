@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles for the calculator app */
+body {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+/* AG-Grid theme overrides */
+.ag-theme-alpine {
+  @apply border border-gray-200 rounded-lg;
+}
+
+/* Date picker custom styles */
+.react-datepicker-wrapper {
+  @apply w-full;
+}
+
+.react-datepicker__input-container input {
+  @apply w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500;
+}
