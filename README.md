@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="RMImages/Text_Logo.png" alt="Post-Judgment Interest Calculator Logo" width="600"/>
+
 # 💰 Post-Judgment Interest Calculator
 
 ### A Professional Desktop Application for Legal Interest Calculations
